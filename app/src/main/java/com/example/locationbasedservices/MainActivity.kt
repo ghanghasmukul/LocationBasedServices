@@ -61,7 +61,7 @@ class MainActivity : FragmentActivity(), OnMapReadyCallback {
         checkPermissionForGps()
         Log.e("TAG", "start")
     }
-
+//
     private fun checkPermissionForGps() {
         if (ActivityCompat.checkSelfPermission(
                 this, Manifest.permission.ACCESS_FINE_LOCATION
